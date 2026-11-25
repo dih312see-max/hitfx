@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "hitfx",
+	"version": "${version}",
+	"name": "HitFX",
+	"description": "Cosmetic hit effects, kill effects, trails and a small HUD. Client-side only.",
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.hitfx.HitFxClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
